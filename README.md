@@ -20,7 +20,7 @@ You should run the following command in [MCM-LDM](https://github.com/XingliangJi
 python demo_transfer_crafmd.py --cfg ./configs/config_mld_humanml3d.yaml --cfg_assets ./configs/assets.yaml --style_motion_dir demo/content_test_feats --content_motion_dir demo/content_test_feats --scale 2.5
 python demo_transfer_sra.py --cfg ./configs/config_mld_humanml3d.yaml --cfg_assets ./configs/assets.yaml --style_motion_dir demo/style_test_feats --content_motion_dir demo/style_test_feats --scale 2.5
 ```
-With these generated pkl files, after running the evaluation, you will get results similar to those in the papers. (The differences in evaluation results might be due to using different checkpoints than those used during the original evaluation, but the result differences are minor.)
+With these generated pkl files, after running the evaluation, you will get results similar to those in the papers. (The differences in evaluation results each time might be due to not fixing the seed during our testing.)
 
 ## Acknowledgements
 This code is mostly taken from [ACTOR](https://github.com/Mathux/ACTOR)
