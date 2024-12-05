@@ -9,7 +9,7 @@ Please use the same environment in [MCM-LDM](https://github.com/XingliangJin/MCM
 
 Run the following commands:
 ```bash
-python eval_CRA_FMD.py
+python eval_FMD_CRA.py
 python eval_SRA.py
 ```
 The results should match those in the paper.
